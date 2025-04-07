@@ -1,0 +1,27 @@
+/* normalize global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* selectors */
+
+
+/* classes */
+
+.hero-content {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  width: 500px;
+  height: 300px;
+}
+.hero-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
