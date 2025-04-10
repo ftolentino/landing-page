@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 /* selectors */
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 /* classes */
 
@@ -32,8 +34,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 8px;
   flex: 1;
 }
+
+.hero-item-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-item-left p, a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 
 .hero-item-right {
   width: 500px;
