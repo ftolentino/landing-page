@@ -9,6 +9,7 @@
 
 /* classes */
 
+/* hero section */
 .hero-content {
   background-color: #1F2937;
   display: flex;
@@ -24,7 +25,7 @@
   flex-direction: row;
 }
 
-.hero-item {
+.hero-item-left {
   width: 500px;
   height: 300px;
   display: flex;
@@ -33,7 +34,13 @@
   align-items: flex-start;
   flex: 1;
 }
-.hero-item img {
+
+.hero-item-right {
+  width: 500px;
+  height: 300px;
+}
+
+.hero-item-right img {
   width: 100%;
   height: 100%;
   object-fit: fill;
