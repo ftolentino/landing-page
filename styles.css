@@ -7,56 +7,66 @@
 /* selectors */
 body {
   font-family: 'Roboto', sans-serif;
+  display: block;
 }
 
 /* classes */
 
 /* hero section */
 .hero-content {
+  display: block;
   background-color: #1F2937;
+}
+
+.hero-content-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 600px;
 }
 
 .hero-container {
+  width: 100%;
+  height: 500px; 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex: 1;
 }
 
-.hero-item-left {
-  width: 500px;
-  height: 300px;
+.hero-item {
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
-  flex: 1;
 }
 
-.hero-item-left h1 {
+.hero-item h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
 
-.hero-item-left p, a {
+.hero-item p, a {
   font-size: 18px;
   color: #E5E7EB;
 }
 
 
-.hero-item-right {
-  width: 500px;
-  height: 300px;
-}
-
-.hero-item-right img {
+.hero-item img {
   width: 100%;
   height: 100%;
   object-fit: fill;
+}
+
+/* navbar */
+.navbar {
+  display: inline-block;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
 }
