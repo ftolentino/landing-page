@@ -10,6 +10,18 @@ body {
   display: block;
 }
 
+ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* classes */
 
 /* hero section */
@@ -63,10 +75,14 @@ body {
 
 /* navbar */
 .navbar {
-  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar-container {
+.navbar-left, .navbar-right {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
+
+
