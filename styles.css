@@ -80,6 +80,7 @@ a {
   display: flex;
   align-items: flex-start;
   text-align: left;
+  flex: 1;
 }
 
 .header-content {
