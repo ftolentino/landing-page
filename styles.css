@@ -190,4 +190,16 @@ a {
   color: #1F2937;
 }
 
+/* sign-up content */
 
+.sign-up-content {
+  background-color: white;
+  padding: 150px 0;
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
