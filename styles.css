@@ -138,6 +138,9 @@ a {
   height: 150px;
   border: solid 2px #3882F6;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* quote section */
@@ -220,4 +223,8 @@ a {
 .footer-copyright {
   color: #E5E7EB;
   font-size: 18px;
+}
+/* Huge Icons Customization */
+.hgi-stroke {
+  font-size: 64px;
 }
